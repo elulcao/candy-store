@@ -1,0 +1,11 @@
+.env
+bin/
+
+# Binaries
+candy_store
+
+# User report
+report.json
+
+# vscode
+.vscode/*.log
