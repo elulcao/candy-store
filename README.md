@@ -1,24 +1,29 @@
-# Usage
+# candy-store
 
-## Build
+Candystore excercise.
+Top customers and their favourites.
+
+## Usage
+
+### Build
 
 ```bash
 make build
 ```
 
-## Run
+### Run
 
 ```bash
 ./candy-store --file test.csv
 ```
 
-## Test
+### Test
 
 ```bash
 make test
 ```
 
-# Summary
+## Summary
 
 Input is a CSV file with the following columns:
 * `Name`: The name of the user

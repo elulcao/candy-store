@@ -8,10 +8,12 @@ import (
 
 func TestParseUsers(t *testing.T) {
 	tests := []struct {
+		name         string
 		data         [][]string
 		expectedData string
 	}{
 		{
+			name: "Test only one user",
 			data: [][]string{
 				{"Name", "Candy", "Eaten"},
 				{"Annika", "Geisha", "100"},
@@ -25,6 +27,7 @@ func TestParseUsers(t *testing.T) {
 ]`,
 		},
 		{
+			name: "Test three users",
 			data: [][]string{
 				{"Name", "Candy", "Eaten"},
 				{"Annika", "Geisha", "100"},
@@ -50,6 +53,7 @@ func TestParseUsers(t *testing.T) {
 ]`,
 		},
 		{
+			name: "Test complete data",
 			data: [][]string{
 				{"Name", "Candy", "Eaten"},
 				{"Annika", "Geisha", "100"},

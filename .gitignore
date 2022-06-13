@@ -2,7 +2,8 @@
 bin/
 
 # Binaries
-candy_store
+candy_store.darwin
+candy_store.linux
 
 # User report
 report.json
