@@ -10,3 +10,5 @@ report.json
 
 # vscode
 .vscode/*.log
+
+**/vendor
